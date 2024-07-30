@@ -3,12 +3,12 @@ package model;
 public class User {
   private String name;
   private int age;
-  private int height;
+  private int blabla;
   private int weight;
 
-  public User(int age, int height, String name, int weight) {
+  public User(int age, int blabla, String name, int weight) {
     this.age = age;
-    this.height = height;
+    this.blabla = blabla;
     this.name = name;
     this.weight = weight;
   }
@@ -18,7 +18,7 @@ public class User {
   }
 
   public int height() {
-    return height;
+    return blabla;
   }
 
   public String name() {
@@ -35,7 +35,7 @@ public class User {
   }
 
   public User height(int height) {
-    this.height = height;
+    this.blabla = height;
     return this;
   }
 
